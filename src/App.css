@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d; /* Dark background */
+  color: #ffffff; /* Light text */
+  background-image: url("https://example.com/space-background.jpg"); /* Space background */
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 1.6; /* Increase line height for readability */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.App-link {
-  color: #61dafb;
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin: 2rem 0;
+}
+
+.section {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section p {
+  margin-bottom: 1rem; /* Add space between paragraphs */
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+h1,
+h2 {
+  font-family: "Space Mono", monospace;
+}
+
+p {
+  line-height: 1.8; /* Increase line height for readability */
+  margin: 0 0 1.5rem 0; /* Add margin below paragraphs */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+ul li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+a {
+  color: #ffcc00;
+}
+
+a:hover {
+  text-decoration: underline;
 }
