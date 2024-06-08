@@ -1,12 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&family=Roboto:wght@300;400;700&display=swap");
+
 body {
-  font-family: "Space Mono", monospace;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0; /* Light background */
+  background-color: #f4f4f9; /* Light background */
   color: #333; /* Dark text */
-  background-image: url("https://example.com/space-background.jpg"); /* Optional light space background */
-  background-size: cover;
-  background-attachment: fixed;
   line-height: 1.6; /* Increase line height for readability */
 }
 
@@ -16,6 +15,19 @@ header {
   padding: 1rem;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  color: #007bff;
 }
 
 nav a {
@@ -26,8 +38,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6600;
-  text-decoration: underline;
+  color: #007bff;
 }
 
 main {
@@ -35,23 +46,31 @@ main {
   background-color: #ffffff;
   margin: 1rem auto;
   border-radius: 10px;
-  max-width: 800px;
+  max-width: 900px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
 }
 
-section {
-  margin: 2rem 0;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .section {
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
 }
 
-section p {
-  margin-bottom: 1rem; /* Add space between paragraphs */
+.section:hover {
+  transform: translateY(-5px);
 }
 
 footer {
@@ -65,11 +84,19 @@ footer {
 h1,
 h2 {
   font-family: "Space Mono", monospace;
+  color: #007bff;
 }
 
-p {
-  line-height: 1.8; /* Increase line height for readability */
-  margin: 0 0 1.5rem 0; /* Add margin below paragraphs */
+h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+p,
+ul {
+  line-height: 1.8;
+  margin: 0 0 1.5rem 0;
 }
 
 ul {
@@ -78,19 +105,20 @@ ul {
 }
 
 ul li {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   margin: 0.5rem 0;
   padding: 0.5rem;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
 }
 
 ul li:hover {
-  background-color: #f0f0f0;
+  background-color: #e9ecef;
 }
 
 a {
-  color: #ff6600;
+  color: #007bff;
 }
 
 a:hover {

@@ -4,9 +4,11 @@ const About = () => {
   return (
     <section id="about" className="section">
       <h2>About Me</h2>
-      <p>Hello, my name is Debasish Behera.</p>
+      <p>Hey, I'm Debasish Behera, an 18-year-old developer from India. </p>
       <p>
-        Founder and President, Youth Voices for Tomorrow (YVT). Founded an organization in which youth from different countries share their perspectives on issues related to human rights, climate, health, and STEM. Arranged weekend town hall meetings with other members of YVT. Encouraged every member to raise their voices against the world’s pressing matters. Communicated with at least three members each week on video call to encourage them and solicit their feedback on the group's overall improvement. Recruited 40 members as of now, who are from across 5 continents and 15 countries.
+      Right now, I'm all about Acadmyc, a slick SaaS platform I'm cooking up for universities. Think of it as the ultimate campus hub – class updates, club deets, and networking, all in one spot.
+
+But guess what? That's just the warm-up. Me and my crew are diving into another gig, crafting a next-gen personal AI, straight outta sci-fi. Picture having your own JARVIS-style buddy, but real. It's like leveling up your digital game.
       </p>
     </section>
   );
