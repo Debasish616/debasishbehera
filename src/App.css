@@ -2,41 +2,41 @@ body {
   font-family: "Space Mono", monospace;
   margin: 0;
   padding: 0;
-  background-color: #0d0d0d; /* Dark background */
-  color: #ffffff; /* Light text */
-  background-image: url("https://example.com/space-background.jpg"); /* Space background */
+  background-color: #f0f0f0; /* Light background */
+  color: #333; /* Dark text */
+  background-image: url("https://example.com/space-background.jpg"); /* Optional light space background */
   background-size: cover;
   background-attachment: fixed;
   line-height: 1.6; /* Increase line height for readability */
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: #ffffff;
+  color: #333;
   padding: 1rem;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-  color: white;
+  color: #333;
   margin: 0 1rem;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #ff6600;
   text-decoration: underline;
 }
 
 main {
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #ffffff;
   margin: 1rem auto;
   border-radius: 10px;
   max-width: 800px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -45,9 +45,9 @@ section {
 
 .section {
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #f9f9f9;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section p {
@@ -55,13 +55,11 @@ section p {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: #ffffff;
+  color: #333;
   text-align: center;
   padding: 1rem;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1,
@@ -80,18 +78,19 @@ ul {
 }
 
 ul li {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #ffffff;
   margin: 0.5rem 0;
   padding: 0.5rem;
   border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 ul li:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #f0f0f0;
 }
 
 a {
-  color: #ffcc00;
+  color: #ff6600;
 }
 
 a:hover {
