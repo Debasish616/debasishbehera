@@ -11,7 +11,7 @@ function NavBar() {
       {/* <Link to="/"><h1>hola amigo 👋</h1></Link> */}
       <Link to="/">genesis</Link>
         <Link to="/projects">projects</Link>
-        <Link to="/blog">blog</Link>
+        <Link to="/blog">blogs</Link>
       </div>
      
 
