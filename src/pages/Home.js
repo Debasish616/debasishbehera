@@ -29,8 +29,8 @@ currently, i’m busy creating solutions that make global payments simple. in ot
               <Link to="/projects">View More</Link>
             </div>
             <div className="project-card">
-              <h3>Genesis Web3 Club</h3>
-              <p>Bringing blockchain enthusiasts together with workshops and hackathons.</p>
+              <h3>Lunar Hazard Mapping</h3>
+              <p>Developed a high-precision hazard map using CNNs, TensorFlow, PyTorch, and Quantum GIS for safe lunar landings.</p>
               <Link to="/projects">View More</Link>
             </div>
           </div>
